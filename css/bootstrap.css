@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(16, 16, 20);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    color: gray;
+    font-size: .8rem;
+}
+
+/* custom flatted classes */
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* amend bootstrap classes */
+.container-fluid {
+    /* border: 1px solid green; */
+    padding: 0;
+}
+.container {
+    /* border: 1px solid red; */
+}
+
+
+/* header */
+.hn-header {
+    height: 800px;
+    background-image: url(../assets/mountain.jpg);
+}
+
+.hn-nav {
+    padding-top: 2em;
+    justify-content: space-around;
+}
+
+.hn-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #dc3545;
+    margin-right: 1rem;
+    line-height: 50px;
+    text-align: center;
+}
+
+.hn-nav-list ul * {
+    padding-right: 1em;
+    line-height: 50px;
+}
+
+.hn-nav-right > * {
+    margin-left: 30px;
+    height: 50px;
+}
+
+.hn-nav-right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hn-hero {
+    font-weight: bold;
+    font-size: 5rem;
+    margin: auto auto auto 8%;
+}
+.hn-hero-text {
+
+    padding-bottom: 10px;
+    width: 3rem;
+
+}
+
+
+/* card album */
+.my-6 {
+    margin: 100px 0;
+}
+.hn-movie-album h2 {
+    font-size: 1.5rem;
+}
+.movie-card>img {
+    width: 100%;
+    object-fit: cover;
+}
+.movie-card p {
+    padding: 10px 0;
+}
+.movie-card_title {
+    justify-content: space-between;
+}
+.fa-heart-red {
+    color: red;
+}
+
+/* footer */
+.hn-footer .logo {
+    min-height: 100px;
+    padding: 20px;
+}
+
+
+
